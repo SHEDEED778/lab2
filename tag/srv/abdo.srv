@@ -1,0 +1,4 @@
+
+int32 cake_num    # which cake to make (1, 2, or 3)
+---
+string success_message # message indicating success

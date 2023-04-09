@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- Start app1 node -->
+  <node name="app1" pkg="tag" type="app1.py" output="screen">
+  </node>
+
+  <!-- Start app2 node -->
+  <node name="app2" pkg="tag" type="app2.py" output="screen">
+  </node>
+
+</launch>
